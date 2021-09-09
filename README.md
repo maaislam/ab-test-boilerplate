@@ -18,6 +18,6 @@
 // @match {url of the page you want to run the test}
 // ==/UserScript==
 ```
-## Please remember to update the userscript based on your AB Test.
+### Please remember to update the userscript based on your AB Test.
 
 Once Local development is done use the css from dist folder & find your js object along with the polling function from index.js inside dist folder.
