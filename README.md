@@ -10,7 +10,7 @@
 5. open the site you want to perform AB test. Click tampermonkey extension and start a new script.
    Within the script type the following:
 
-```userscript
+```
 // ==UserScript==
 // @name {Name of the test as given by client}
 // @require file://{LOCATION OF config.js file}
