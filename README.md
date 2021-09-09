@@ -1,6 +1,7 @@
 # Echologyx\_\_ab_testing--setup
 
 1. open terminal (ctrl + ~) and type `npm install`.
+
 2. start the setup by typing `npm start`
 
 3. you can use the index.js & main.scss in the root folder to create your AB Test. OR you can create your own folder structure. Just make sure to add the correct path for your js and css in index.html
