@@ -19,5 +19,3 @@
 ```
 
 Once Local development is done use the css from dist folder & find your js object along with the polling function from index.js inside dist folder.
-
-#Enjoy.
