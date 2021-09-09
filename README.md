@@ -10,10 +10,12 @@
 5. open the site you want to perform AB test. Click tampermonkey extension and start a new script.
    Within the script type the following:
 
+```
 // ==UserScript==
 // @name {Name of the test as given by client}
 // @require file://{LOCATION OF config.js file}
 // @match {url of the page you want to run the test}
 // ==/UserScript==
+```
 
 Once Local development is done use the css from dist folder & find your js obect along with the polling function from index.js inside dist folder.
