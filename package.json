@@ -1,0 +1,40 @@
+{
+  "name": "echologyx__ab__test--boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "parcel build src/index.html --no-source-maps --no-optimize",
+    "prebuild": "rm -rf dist",
+    "start": "concurrently \"parcel src/index.html --no-cache --no-source-maps\" \"node server.js\""
+  },
+  "keywords": [],
+  "author": "Arafat Islam",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-async-to-generator": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "concurrently": "^6.2.1",
+    "cssnano": "^5.0.6",
+    "parcel-namer-rewrite": "^2.0.0-rc.0",
+    "postcss": "^8.3.6",
+    "sass": "^1.35.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "autoprefixer": "^9.8.6",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-preset-env": "^1.7.0",
+    "livereload": "^0.9.3",
+    "parcel": "^2.0.0-rc.0",
+    "postcss-modules": "^4.2.2"
+  },
+  "parcel-namer-rewrite": {
+    "chain": "@parcel/namer-default",
+    "rules": {
+      "(.*).css": "main.css",
+      "(.*).js": "index.js"
+    }
+  }
+}

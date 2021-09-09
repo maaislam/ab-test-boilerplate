@@ -1,0 +1,91 @@
+#course-pacing-billing,
+label[for="course-pacing-billing"] {
+
+    visibility: hidden;
+
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+//  ng-dirty ng-valid-parse
+
+//ng-pristine  
+.newdate-selector {
+    &__headline {
+
+        margin-top: 35px;
+        text-align: left;
+        font-size: 18px;
+        line-height: 22px;
+        color: #1B212D;
+        font-weight: 600;
+    }
+
+    &__contact--msg {
+
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #8D9096;
+        text-align: left;
+        white-space: nowrap;
+
+        @media (max-width: 1024px) {
+            white-space: normal;
+        }
+    }
+}
+
+.newdate-container {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.single-date {
+    height: 32px;
+    padding: 4px 16px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border: 2px solid #E9E9E9;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+
+    @media (max-width: 484px) {
+        height: 62px;
+        padding: 4px 14px;
+        line-height: 26px;
+    }
+
+
+}
+
+.single-date.selected {
+
+    background-color: #9A66FE;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid #9A66FE;
+    font-weight: 600;
+}
+
+.small-scrn-height {
+
+    @media (max-width: 484px) {
+        height: 36px;
+    }
+
+}
+
+.l-main--blue {
+    background-color: rgb(184, 197, 62) !important;
+}
