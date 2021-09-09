@@ -1,13 +1,13 @@
 # Echologyx\_\_ab_testing--setup
 
-step 1: open terminal (ctrl + ~) and type "npm install".
-step 2: start the setup by typing "npm start"
+1. open terminal (ctrl + ~) and type "npm install".
+2. start the setup by typing "npm start"
 
-step 3: you can use the index.js & main.scss in the root folder to create your AB Test. OR you can create your own folder structure. Just make sure to add the correct path for your js and css in index.html
+3. you can use the index.js & main.scss in the root folder to create your AB Test. OR you can create your own folder structure. Just make sure to add the correct path for your js and css in index.html
 
-step 4: install chrome extension tampermonkey. Right click on the extension icon and go to manage extension, from there allow it access file urls.
+4. install chrome extension tampermonkey. Right click on the extension icon and go to manage extension, from there allow it access file urls.
 
-step 5: open the site you want to perform AB test. Click tampermonkey extension and start a new script. Within the script type the following:
+5. open the site you want to perform AB test. Click tampermonkey extension and start a new script. Within the script type the following:
 
 // ==UserScript==
 // @name {Name of the test as given by client}
