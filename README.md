@@ -4,12 +4,12 @@
 
 2. start the setup by typing `npm start`
 
-3. you can use the index.js & main.scss in the root folder to create your AB Test. OR you can create your own folder structure. Just make sure to add the correct path for your js and css in index.html
+3. you can use the index.js & main.scss in the root folder to create your AB Test. OR you can create your own folder structure. Just make sure to add the correct path for your js and css (or scss) in index.html
 
 4. install chrome extension tampermonkey. Right click on the extension icon and go to manage extension, from there allow it access file urls.
 
 5. open the site you want to perform AB test. Click tampermonkey extension and start a new script.
-   Within the script type the following:
+   Within the script copy and paste the following:
 
 ```
 // ==UserScript==
@@ -18,6 +18,7 @@
 // @match {url of the page you want to run the test}
 // ==/UserScript==
 ```
+### Please remember to update the userscript based on your AB Test.
 
 Once Local development is done use the css from dist folder & find your js object along with the polling function from index.js inside dist folder.
 
