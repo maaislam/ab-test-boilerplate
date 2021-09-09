@@ -11,7 +11,7 @@ var basicStructure = {
   },
   mainJS: function () {
     //For JS
-    let yekko = 'tada';
+    let yekko = 'tadakhkbjbkjb,kkkk';
     const test = `hello world ${yekko}`;
     console.log('🚀 ~ file: index.js ~ line 19 ~ test', test);
     function resolveAfter2Seconds() {

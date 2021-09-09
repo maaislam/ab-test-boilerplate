@@ -20,3 +20,7 @@
 ```
 
 Once Local development is done use the css from dist folder & find your js object along with the polling function from index.js inside dist folder.
+
+## Troubleshooting
+
+- In case you get CORS warning in console, please check if the path for @require directive is correct in tampermonkey & also make sure the correct file names are being used in tampermonkey/config.js file

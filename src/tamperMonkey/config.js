@@ -10,7 +10,7 @@ script.type = 'text/javascript';
 script1.type = 'text/javascript';
 
 /**************************change file names here from dist folder**********************************/
-link.href = 'http://localhost:1234/index.css';
+link.href = 'http://localhost:1234/main.css';
 script.src = 'http://localhost:1234/index.js';
 /**************************************************************r**********************************/
 
