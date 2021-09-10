@@ -1,4 +1,4 @@
-# Echologyx\_\_ab_testing--setup
+# Echologyx\-ab-testing-setup
 
 1. open terminal (ctrl + ~) and type `npm install`.
 
