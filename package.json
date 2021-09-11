@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
+    "set-target-url": "node src/tamperMonkey/setTargetUrl.js",
     "build": "parcel build src/index.html --no-source-maps --no-optimize",
     "prebuild": "rm -rf dist",
     "start": "concurrently --kill-others  \"parcel src/index.html  --no-cache --no-source-maps\" \"node src/tamperMonkey/configServer.js\" \"node server.js\""
