@@ -4,7 +4,7 @@
 
 2. open terminal (ctrl + ~), cd into the unzipped folder and type `npm install`.
 
-3. navigate to src/tamperMonkey/config.js and add the url where your AB test will run.
+3. now add target url for your test by typing `npm run set-url-target`. This will prompt for the url type the target url when you see the prompt 'Set the URL target for you test:' and hit enter.
 
 4. you can use the index.js & main.scss in the root folder to create your AB Test. OR you can create your own folder structure. Just make sure to add the correct path for your js and css (or scss) in index.html
 
@@ -16,12 +16,14 @@
 ```
 // ==UserScript==
 // @name         Echologyx AB Testing Setup
-// @require      http://localhost:3000/
+// @require      http://localhost:2345/
 // @match        http*://*/*
 // ==/UserScript==
 ```
 
-### P.S. you only need to perform step 6 this once. You do not have to change it for each project.
+### P.S. you only need to perform step 6 only once. You do not have to change it for each project.
+
+### P.S. you only need to perform step 3 everytime a new test starts. You do not have to change it for each project.
 
 7. start the setup by typing `npm start` & refresh the page (you only have to do it once).
 
