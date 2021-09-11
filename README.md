@@ -25,4 +25,4 @@ Once Local development is done use the css from dist folder & find your js objec
 
 ## Troubleshooting
 
-- In case you get CORS warning in console, please check if the path for @require directive is correct in tampermonkey & also make sure the correct file names are being used in tampermonkey/config.js file.
+- In case your css or js is not updating try restarting the server by typing (ctrl + c) followed by `npm start`. also try disabling the cache in your browser.
