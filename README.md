@@ -2,7 +2,10 @@
 
 1. download the zip folder from this [link](https://github.com/maaislam/echologyx-ab-testing-boilerplate/archive/refs/heads/main.zip) and unzip the it. Open the unzipped folder with vs code.
 
-2. open terminal (ctrl + ~), cd into the unzipped folder and type `npm install`.
+2. open terminal (ctrl + ~), cd into the unzipped folder and type the following  
+  ```sh
+  npm install
+  ```
 
 3. ehile npm is installing dependencies, install chrome extension tampermonkey. Right click on the extension icon and go to manage extension, from there allow it access file urls.
 
