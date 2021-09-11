@@ -1,8 +1,7 @@
-console.log('awesome', location.href);
-
-var urlStr = 'https://trydesignlab.com/interaction-design-course/enroll/';
-
-var urlMatched = targetUrl(urlStr);
+/********************Add url target here****************************************/
+var targetUrlStr = 'https://trydesignlab.com/interaction-design-course/enroll/';
+/*************************************************************/
+var urlMatched = targetUrl(targetUrlStr);
 
 if (urlMatched) {
   console.log('Tampermonkey is running...');
@@ -16,10 +15,10 @@ if (urlMatched) {
   script.type = 'text/javascript';
   script1.type = 'text/javascript';
 
-  /**************************change file names here from dist folder**********************************/
+  /************************************************************/
   link.href = 'http://localhost:1234/main.css';
   script.src = 'http://localhost:1234/index.js';
-  /**************************************************************r**********************************/
+  /*************************************************************/
 
   script1.src = 'http://localhost:35729/livereload.js?snipver=1';
 
