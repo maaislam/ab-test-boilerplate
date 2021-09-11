@@ -19,7 +19,7 @@
 // ==/UserScript==
 ```
 
-6. start the setup by typing `npm start`.
+6. start the setup by typing `npm start` & refresh the page (only have to do it once).
 
 Once Local development is done use the css from dist folder & find your js object along with the polling function from index.js inside dist folder.
 
