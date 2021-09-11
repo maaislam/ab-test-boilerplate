@@ -36,7 +36,7 @@ This will prompt for the url type the target url when you see the prompt 'Set th
   ```sh
   npm start
   ```
-  & refresh the page (you only have to do it once).
+& refresh the page (you only have to do it once).
 
 Once Local development is done use the css from dist folder & find your js object along with the polling function from index.js inside dist folder.
 
