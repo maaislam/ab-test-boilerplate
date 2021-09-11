@@ -1,13 +1,16 @@
 {
-  "name": "echologyx__ab__test--boilerplate",
+  "name": "echologyx-ab-testing-boilerplate",
   "version": "0.0.1",
   "description": "",
   "scripts": {
     "build": "parcel build src/index.html --no-source-maps --no-optimize",
     "prebuild": "rm -rf dist",
-    "start": "concurrently --kill-others \"parcel src/index.html --no-cache --no-source-maps\" \"node server.js\""
+    "start": "concurrently --kill-others \"node src/tamperMonkey/configServer.js\" \"parcel src/index.html  --no-cache --no-source-maps\" \"node server.js\""
   },
-  "keywords": [],
+  "keywords": [
+    "parce",
+    "javascript"
+  ],
   "author": "Arafat Islam",
   "license": "MIT",
   "devDependencies": {
@@ -26,6 +29,7 @@
     "autoprefixer": "^9.8.6",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "babel-preset-env": "^1.7.0",
+    "express": "^4.17.1",
     "livereload": "^0.9.3",
     "parcel": "^2.0.0-rc.0",
     "postcss-modules": "^4.2.2"
