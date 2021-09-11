@@ -6,7 +6,7 @@
 
 3. ehile npm is installing dependencies, install chrome extension tampermonkey. Right click on the extension icon and go to manage extension, from there allow it access file urls.
 
-4. open the site you want to perform AB test. Click tampermonkey extension and start a new script.
+4. Once tamperMonkey installation is complete, Click tampermonkey extension and start a new script.
    Within the script copy and paste the following:
 
 ```
