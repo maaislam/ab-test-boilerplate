@@ -1,6 +1,6 @@
 # How To
 
-1. download the zip folder from this [link](https://github.com/maaislam/echologyx-ab-testing-boilerplate/archive/refs/heads/main.zip) and unzip the it. Open the unzipped folder with vs code.
+1. download the zip folder from this ##[link](https://github.com/maaislam/echologyx-ab-testing-boilerplate/archive/refs/heads/main.zip) and unzip the it. Open the unzipped folder with vs code.
 
 2. open terminal (ctrl + ~), cd into the unzipped folder and type `npm install`.
 
