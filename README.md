@@ -21,7 +21,7 @@
 // ==/UserScript==
 ```
 
-### P.S. you only need to perform step 6 this once. You do not have to change it for each project
+### P.S. you only need to perform step 6 this once. You do not have to change it for each project.
 
 7. start the setup by typing `npm start` & refresh the page (you only have to do it once).
 
