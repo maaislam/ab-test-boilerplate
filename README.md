@@ -20,7 +20,11 @@
 // ==/UserScript==
 ```
 
-5. now add target url for your test by typing `npm run set-url-target`. This will prompt for the url type the target url when you see the prompt 'Set the URL target for you test:' and hit enter.
+5. now add target url for your test by typing the following 
+```sh
+npm run set-url-target
+```
+This will prompt for the url type the target url when you see the prompt 'Set the URL target for you test:' and hit enter.
 
 6. you can use the index.js & main.scss in the root folder to create your AB Test. OR you can create your own folder structure. Just make sure to add the correct path for your js and css (or scss) in index.html
 
