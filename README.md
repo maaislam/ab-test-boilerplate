@@ -29,4 +29,4 @@ Once Local development is done use the css from dist folder & find your js objec
 
 ## Troubleshooting
 
-- In case your css or js is not updating try restarting the server by typing (ctrl + c) followed by `npm start`. also try disabling the cache in your browser.
+- In case your css or js is not updating try deleting the dist & parcel-cache folder and then restart the servers by typing (ctrl + c) followed by `npm start`. You also need to make sure that browser cache is diabled, you can do this by going to the network tab in browser console and checking the box 'Disable cache'.

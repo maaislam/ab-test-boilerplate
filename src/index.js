@@ -1,2 +1,2 @@
 /*put your js here*/
-console.log('teesfdssgs');
+console.log('setup found your js');
