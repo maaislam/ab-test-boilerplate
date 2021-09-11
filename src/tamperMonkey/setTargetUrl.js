@@ -45,14 +45,11 @@ function targetUrl(urlString) {
 }
 `;
 
-rl.question('Set the URL target for you test? ', function (urlTarget) {
-  console.log(`${urlTarget}`);
-
+rl.question('\x1b[34m Set the URL target for you test:\x1b[0m ', function (urlTarget) {
   var urlString = `var targetUrlStr = "${urlTarget}"`;
 
   //delete the content of the file
   fs.truncate(filePath, 0, function () {
-    console.log('done');
     // append data to file
     fs.appendFile(
       'src/tamperMonkey/config.js',
@@ -62,7 +59,7 @@ rl.question('Set the URL target for you test? ', function (urlTarget) {
       function (err) {
         if (err) throw err;
         // if no error
-        console.log('Data is appended to file successfully.');
+        console.log(`\n setup has successfully added \x1b[34m\x1b[4m${urlTarget}\x1b[0m as the url target for you test.`);
         rl.close();
       }
     );
@@ -70,6 +67,6 @@ rl.question('Set the URL target for you test? ', function (urlTarget) {
 });
 
 rl.on('close', function () {
-  console.log('\n Now do npm instal if you already havent followed by npm start.');
+  console.log('\n Now perform \x1b[33mnpm instal\x1b[0m if you already havent followed by \x1b[33mnpm start\x1b[0m.');
   process.exit(0);
 });
