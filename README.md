@@ -4,7 +4,7 @@
 
 2. open terminal (ctrl + ~), cd into the unzipped folder and type `npm install`.
 
-3. ehile npm is installing dependencies, install chrome extension tampermonkey. Right click on the extension icon and go to manage extension, from there allow it access file urls.
+3. while npm is installing dependencies, install chrome extension tampermonkey. Right click on the extension icon and go to manage extension, from there allow it access file urls.
 
 4. Once tamperMonkey installation is complete, Click tampermonkey extension and start a new script.
    Within the script copy and paste the following:
