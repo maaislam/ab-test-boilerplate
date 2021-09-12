@@ -18,7 +18,7 @@
 3. while npm is installing the dependencies, install chrome extension tampermonkey.
 
 4. Once tamperMonkey installation is complete, Click tampermonkey extension and start a new script.
-   Within the script copy and paste the following:
+   Within the script copy and paste the following and press `ctrl + s`:
 
 ```
 // ==UserScript==
