@@ -34,7 +34,7 @@
 
 #### P.S. you only need to perform step 4 only once. You do not have to change it for each project.
 
-#### P.S. you only need to perform step 5 everytime a new test starts. You do not have to change it for each project.
+#### P.S. you only need to perform step 5 everytime a new test starts.
 
 7. start the setup by typing `npm start` & refresh the page (you only have to do it once).
 
