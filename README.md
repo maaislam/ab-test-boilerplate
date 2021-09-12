@@ -1,3 +1,6 @@
+
+[![MIT License][license-shield]][license-url]
+
 # How To
 
 1. download the zip folder from this [link](https://github.com/maaislam/echologyx-ab-testing-boilerplate/archive/refs/heads/main.zip) and unzip it. Open the unzipped folder with vs code.
