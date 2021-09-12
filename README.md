@@ -1,10 +1,10 @@
 # How To
 
-1. download the zip folder from this [link](https://github.com/maaislam/echologyx-ab-testing-boilerplate/archive/refs/heads/main.zip) and unzip the it. Open the unzipped folder with vs code.
+1. download the zip folder from this [link](https://github.com/maaislam/echologyx-ab-testing-boilerplate/archive/refs/heads/main.zip) and unzip it. Open the unzipped folder with vs code.
 
-2. open terminal (ctrl + ~), cd into the unzipped folder and type `npm install`.
+2. open terminal (ctrl + ~) and type `npm install`.
 
-3. while npm is installing dependencies, install chrome extension tampermonkey. Right click on the extension icon and go to manage extension, from there allow it access file urls.
+3. while npm is installing the dependencies, install chrome extension tampermonkey.
 
 4. Once tamperMonkey installation is complete, Click tampermonkey extension and start a new script.
    Within the script copy and paste the following:
@@ -17,7 +17,7 @@
 // ==/UserScript==
 ```
 
-5. now add target url for your test by typing `npm run set-url-target`. This will prompt for the url type the target url when you see the prompt 'Set the URL target for you test:' and hit enter.
+5. now get back to vs code add target url for your test by typing `npm run set-url-target`. This will prompt for the url, type the target url when you see the prompt 'Set the URL target for you test:' and hit enter.
 
 6. you can use the index.js & main.scss in the root folder to create your AB Test. OR you can create your own folder structure. Just make sure to add the correct path for your js and css (or scss) in index.html
 
